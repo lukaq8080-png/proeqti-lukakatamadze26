@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riff Republic - Rock Music Blog</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html"><span class="logo-icon">⚡</span> <span class="logo-text">Riff Republic</span></a>
+    </div>
+    <button class="mobile-menu-toggle" id="menuToggle">☰</button>
+    <nav class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+      <a href="contact.html" class="btn-join">Join the Crew</a>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section">
+    <div class="hero-left">
+      <div>
+        <h1 class="hero-title">Louder<br>Than <span>Words</span></h1>
+        <p class="hero-subtitle">Rock Music Blog With Independent Opinions</p>
+      </div>
+
+      <div class="hero-cards">
+        <div class="card card-trending">
+          <span class="badge">Trending Posts</span>
+          <h3>Riffs Never Die: Why the Guitar Solo Is Back on the Charts</h3>
+        </div>
+
+        <div class="card card-trusted">
+          <div class="avatars">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop" alt="Reader">
+            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&auto=format&fit=crop" alt="Reader">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop" alt="Reader">
+          </div>
+          <p>Loved by <strong>12,000+</strong> headbangers & garage bands</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-right">
+      <img src="https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=1000&auto=format&fit=crop" alt="Guitarist playing on stage" class="hero-img">
+    </div>
+  </section>
+
+  <!-- PRESS SECTION -->
+  <section class="press-section">
+    <h2>Fresh Off the Stage</h2>
+    <p class="section-desc">The latest reviews, interviews and backstage stories from our crew</p>
+    <a href="blog.html" class="btn-primary">View All Posts</a>
+  </section>
+
+  <!-- BLOG GRID -->
+  <section class="blog-grid-section">
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1516924962500-2b4b3b99ea02?w=600&auto=format&fit=crop" alt="Electric guitar">
+        </div>
+        <div class="card-content">
+          <div class="card-meta"><span>Sep 28</span> • <span>4 min read</span></div>
+          <span class="badge">Recent Posts</span>
+          <h3 class="post-title">Gear Talk: Finding the Tone That Defines Your Sound</h3>
+          <p class="post-excerpt">Pickups, pedals and amps — a no-nonsense guide to building a tone people recognize after one chord.</p>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?w=600&auto=format&fit=crop" alt="Drum kit">
+        </div>
+        <div class="card-content">
+          <div class="card-meta"><span>Sep 24</span> • <span>3 min read</span></div>
+          <span class="badge">Recent Posts</span>
+          <h3 class="post-title">Behind the Kit: Lessons From Rock's Greatest Drummers</h3>
+          <p class="post-excerpt">Groove, power and restraint — what every drummer can learn from the legends who kept the beat.</p>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=600&auto=format&fit=crop" alt="Concert crowd">
+        </div>
+        <div class="card-content">
+          <div class="card-meta"><span>Sep 19</span> • <span>5 min read</span></div>
+          <span class="badge">Recent Posts</span>
+          <h3 class="post-title">Front Row Survival Guide: How to Enjoy Your First Festival</h3>
+          <p class="post-excerpt">Earplugs, comfy boots and a meeting point — everything you need for three days of loud music.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- WORKING TABS SECTION -->
+  <section class="about-split-section">
+    <div class="about-left">
+      <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=600&auto=format&fit=crop" alt="Vintage microphone" class="about-portrait">
+      <h2 class="about-title">More Than Music.<br>A Movement.</h2>
+
+      <!-- TAB BUTTONS -->
+      <div class="tab-list">
+        <button class="tab-btn active" data-tab="tab-1">Album Reviews</button>
+        <button class="tab-btn" data-tab="tab-2">Live Reports</button>
+        <button class="tab-btn" data-tab="tab-3">Backstage Stories</button>
+      </div>
+
+      <!-- TAB CONTENTS -->
+      <div class="tab-content active" id="tab-1">
+        <p class="tab-text">Riff Republic was born from a simple idea: great music deserves honest words. Every week we spin the newest records from legends and rising bands and tell you exactly which ones deserve a place on your shelf.</p>
+      </div>
+      <div class="tab-content" id="tab-2">
+        <p class="tab-text">From sweaty club gigs to sold-out stadiums, our reporters are in the crowd. Setlists, photos and the moments you'll wish you had seen with your own eyes.</p>
+      </div>
+      <div class="tab-content" id="tab-3">
+        <p class="tab-text">Interviews with musicians, roadies and sound engineers — the real stories about writing songs, life on tour and what happens after the lights go down.</p>
+      </div>
+
+      <a href="about.html" class="btn-primary">Read More</a>
+    </div>
+
+    <div class="about-right">
+      <img src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=1000&auto=format&fit=crop" alt="Concert stage lights" class="bg-landscape">
+    </div>
+  </section>
+
+  <!-- NEWSLETTER FORM -->
+  <section class="newsletter-section">
+    <div class="newsletter-card">
+      <h2>Join the Mosh Pit</h2>
+      <p class="newsletter-desc">Get tour dates, new releases and the loudest stories of the week delivered straight to your inbox</p>
+
+      <form class="newsletter-form" id="homeNewsletterForm">
+        <label for="email">Email *</label>
+        <input type="email" id="email" required placeholder="Enter your email">
+
+        <div class="checkbox-group">
+          <input type="checkbox" id="subscribe" required>
+          <label for="subscribe">Yes, turn it up — subscribe me to the newsletter. *</label>
+        </div>
+
+        <button type="submit" class="btn-primary btn-submit">Subscribe</button>
+        <div class="form-feedback" id="formFeedback"></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee-ticker">
+    <div class="marquee-track">
+      <span>Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ Rock Never Dies ⚡ </span>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <span class="logo-icon">⚡</span>
+          <span class="logo-text">Riff Republic</span>
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="footer-social">
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Spotify</a>
+      </div>
+      <div class="footer-address">
+        <p>77 Amplifier Ave</p>
+        <p>Seattle, WA 98101</p>
+        <p>info@mysite.com</p>
+        <p>123-456-7890</p>
+      </div>
+      <div class="footer-legal">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Accessibility Statement</a>
+        <p class="copyright">© 2026 by Riff Republic.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
